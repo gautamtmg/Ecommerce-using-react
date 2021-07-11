@@ -1,0 +1,49 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  letter-spacing: 1px;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.carousel img {
+  display: block;
+  height: 300px;
+  width: auto;
+  padding: 0px;
+
+  object-fit: cover;
+  margin: 40px;
+  margin: 0 auto;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(250, 250, 250, 0.5);
+}
